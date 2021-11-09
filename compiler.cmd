@@ -1,3 +1,4 @@
-dir src /s/b/a:-d *.java > sources.txt
-rm -r build/*
+dir .\src\*.java /s/a:-d/b > sources.txt
+rd /s /q build
+mkdir build
 javac -d build @sources.txt
