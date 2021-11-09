@@ -3,7 +3,7 @@ package consoletest;
 import utils.Operations;
 
 public class ConsoleTest {
-	public static void main(String args) {
+	public static void main(String[] args) {
 		System.out.println("Hello desde el paquete consoletest");
 
 		System.out.println("Suma desde paquete utils");
